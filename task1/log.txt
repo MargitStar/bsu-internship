@@ -1,0 +1,12 @@
+C:\bsu-internship\task1>git log
+commit 04de8d638da0d8598a911fb9b2eaddecb1dca518 (HEAD -> master)
+Author: MargitStar <sovenokbymargo444@gmail.com>
+Date:   Tue Feb 11 23:11:17 2020 +0300
+
+    Add status.txt
+
+commit e96af8f3a57e312e2410d6de1f469b1aa3600d68
+Author: MargitStar <sovenokbymargo444@gmail.com>
+Date:   Tue Feb 11 23:07:51 2020 +0300
+
+    Add .gitignore
