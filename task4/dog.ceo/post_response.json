@@ -1,0 +1,1 @@
+{"status":"error","message":"No route found for \"POST \/api\/breeds\/image\/random\": Method Not Allowed (Allow: GET, HEAD) with code: 0","code":405}
