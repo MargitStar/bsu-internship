@@ -1,0 +1,179 @@
+img.logo {
+    max-height: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+    padding-right: 20px;
+}
+
+img.profile {
+    max-height: 50px;
+    float: right;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+div.block1 {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-bottom: solid 1px black;
+    float: left;
+}
+
+div.block2 {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 100px;
+}
+
+div.block2 div.create-post {
+    float: left;
+    margin-right: 10%;
+    width: 60%;
+}
+
+.block2 .filter select {
+    color: #00acee;
+}
+
+.block2 .filter .filter-query {
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input.lol[type = "text"] {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    vertical-align: text-top;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+}
+
+input.lol[type="image"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+input.fwm_button[type="button"] {
+    float: right;
+    width: 80px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    border-radius: 5px;
+}
+
+div.post {
+    overflow: hidden;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 45%;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+div.post img.user-avatar, div.post-content {
+    display: table-cell;
+}
+
+div.post img.user-avatar {
+    width: 20px;
+    height: 20px;
+    max-height: 30px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.post-details p,b {
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.post-details p.date {
+    color: gray;
+}
+
+.post-content p.content {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.post div.user-actions img.like{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.post img.userPost {
+    max-height: 30px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.post div.user-actions img {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.post div.user-actions {
+    display: inline;
+    align-items: center;
+}
+
+div.loadMore{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 45%;
+    text-align: center;
+}
+
+.loadMore input[type = "button"]{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    border-radius: 5px;
+}
+
+footer {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+footer p {
+    margin: 0 20px;
+    display: inline-block;
+    color: gray;
+}
+
+footer a {
+    color: #00acee;
+}
