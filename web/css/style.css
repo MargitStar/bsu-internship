@@ -1,0 +1,208 @@
+.logo {
+    max-height: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+    padding-right: 20px;
+}
+
+.profile {
+    max-height: 50px;
+    float: right;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.my_header{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.post_field {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.post{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.my_header {
+    width: 60%;
+    font-family: 'Calibri', sans-serif;
+    border-bottom: solid 1px black;
+    float: left;
+}
+
+.post_field {
+    width: 60%;
+    padding-top: 100px;
+}
+
+.create-post {
+    float: left;
+    margin-right: 10%;
+    width: 60%;
+}
+
+.post_field .filter select {
+    color: #00acee;
+}
+
+.filter-query {
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.filter-button{
+    float: right;
+}
+.search{
+    background-color: #00acee;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.input_field[type = "text"] {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    vertical-align: text-top;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+}
+.image_camera{
+    width: 30px;
+    height: 30px;
+}
+.photo_button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    /*margin-top: px;*/
+}
+
+.fwm_button[type="button"] {
+    float: right;
+    width: 80px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    border-radius: 5px;
+}
+
+.post {
+    overflow: hidden;
+    margin-top: 20px;
+    width: 45%;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+.post img.user-avatar, div.post-content {
+    display: table-cell;
+}
+
+.user-avatar {
+    width: 20px;
+    height: 20px;
+    max-height: 30px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.post-details p,b {
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.post-details p.date {
+    color: gray;
+}
+
+.post-content p.content {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.post div.user-actions img.like{
+    width: 30px;
+    height: 30px;
+}
+
+.post img.userPost {
+    max-height: 30px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.post div.user-actions img {
+    width: 30px;
+    height: 30px;
+}
+
+.post div.user-actions {
+    display: inline;
+    align-items: center;
+}
+
+.loadMore{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 45%;
+    text-align: center;
+}
+
+.loadMore input[type = "button"]{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    border-radius: 5px;
+}
+
+footer {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+footer p {
+    margin: 0 20px;
+    display: inline-block;
+    color: gray;
+}
+
+footer a {
+    color: #00acee;
+}
+
+.btn {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
