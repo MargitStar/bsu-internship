@@ -1,4 +1,4 @@
-img.logo {
+.logo {
     max-height: 70px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -6,7 +6,7 @@ img.logo {
     padding-right: 20px;
 }
 
-img.profile {
+.profile {
     max-height: 50px;
     float: right;
     margin: 15px;
@@ -14,39 +14,61 @@ img.profile {
     border-radius: 100px;
 }
 
-div.block1 {
-    width: 60%;
+.my_header{
     margin-right: 20%;
     margin-left: 20%;
+}
+
+.post_field {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.post{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.my_header {
+    width: 60%;
+    font-family: 'Calibri', sans-serif;
     border-bottom: solid 1px black;
     float: left;
 }
 
-div.block2 {
+.post_field {
     width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
     padding-top: 100px;
 }
 
-div.block2 div.create-post {
+.create-post {
     float: left;
     margin-right: 10%;
     width: 60%;
 }
 
-.block2 .filter select {
+.post_field .filter select {
     color: #00acee;
 }
 
-.block2 .filter .filter-query {
+.filter-query {
     width: 200px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid black;
 }
 
-input.lol[type = "text"] {
+.filter-button{
+    float: right;
+}
+.search{
+    background-color: #00acee;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.input_field[type = "text"] {
     width: 100%;
     height: 80px;
     border: 1px solid black;
@@ -54,18 +76,23 @@ input.lol[type = "text"] {
     vertical-align: text-top;
 }
 
-input {
-    width: 20px;
-    height: 20px;
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+}
+.image_camera{
+    width: 30px;
+    height: 30px;
+}
+.photo_button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    /*margin-top: px;*/
 }
 
-input.lol[type="image"] {
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-}
-
-input.fwm_button[type="button"] {
+.fwm_button[type="button"] {
     float: right;
     width: 80px;
     height: 20px;
@@ -77,21 +104,19 @@ input.fwm_button[type="button"] {
     border-radius: 5px;
 }
 
-div.post {
+.post {
     overflow: hidden;
-    margin-right: 20%;
-    margin-left: 20%;
     margin-top: 20px;
     width: 45%;
     border-bottom: 1px solid black;
     float: left;
 }
 
-div.post img.user-avatar, div.post-content {
+.post img.user-avatar, div.post-content {
     display: table-cell;
 }
 
-div.post img.user-avatar {
+.user-avatar {
     width: 20px;
     height: 20px;
     max-height: 30px;
@@ -115,8 +140,6 @@ div.post img.user-avatar {
     margin-left: 10px;
 }
 .post div.user-actions img.like{
-    margin-left: 60px;
-    margin-bottom: 10px;
     width: 30px;
     height: 30px;
 }
@@ -129,8 +152,6 @@ div.post img.user-avatar {
 }
 
 .post div.user-actions img {
-    margin-left: 60px;
-    margin-bottom: 10px;
     width: 30px;
     height: 30px;
 }
@@ -140,7 +161,7 @@ div.post img.user-avatar {
     align-items: center;
 }
 
-div.loadMore{
+.loadMore{
     margin-left: 20%;
     margin-right: 20%;
     width: 45%;
@@ -176,4 +197,12 @@ footer p {
 
 footer a {
     color: #00acee;
+}
+
+.btn {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
