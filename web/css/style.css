@@ -14,7 +14,7 @@
     border-radius: 100px;
 }
 
-.my_header{
+.my_header {
     margin-right: 20%;
     margin-left: 20%;
 }
@@ -24,7 +24,7 @@
     margin-left: 20%;
 }
 
-.post{
+.post {
     margin-right: 20%;
     margin-left: 20%;
 }
@@ -58,10 +58,11 @@
     border: 1px solid black;
 }
 
-.filter-button{
+.filter-button {
     float: right;
 }
-.search{
+
+.search {
     background-color: #00acee;
     border: none;
     color: white;
@@ -81,10 +82,12 @@ textarea {
     border-radius: 5px;
     width: 70%;
 }
-.image_camera{
+
+.image_camera {
     width: 30px;
     height: 30px;
 }
+
 .photo_button {
     background-color: inherit;
     border: none;
@@ -125,7 +128,7 @@ textarea {
     border-radius: 100px;
 }
 
-.post-details p,b {
+.post-details p, b {
     display: inline-block;
     margin-top: -10px;
     margin-left: 10px;
@@ -139,7 +142,8 @@ textarea {
     margin-top: -10px;
     margin-left: 10px;
 }
-.post div.user-actions img.like{
+
+.post div.user-actions img.like {
     width: 30px;
     height: 30px;
 }
@@ -161,14 +165,14 @@ textarea {
     align-items: center;
 }
 
-.loadMore{
+.loadMore {
     margin-left: 20%;
     margin-right: 20%;
     width: 45%;
     text-align: center;
 }
 
-.loadMore input[type = "button"]{
+.loadMore input[type = "button"] {
     margin-top: 20px;
     width: 100px;
     height: 20px;
